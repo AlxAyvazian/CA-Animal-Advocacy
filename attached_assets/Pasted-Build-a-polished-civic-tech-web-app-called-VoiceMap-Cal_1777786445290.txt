@@ -1,0 +1,164 @@
+Build a polished civic-tech web app called “VoiceMap California: Animal Welfare Evidence Hub.”
+
+Purpose:
+A statewide California public-interest tool that helps residents document reported concerns involving stray cats, stray dogs, animal neglect, and animal welfare system failures. The app should organize reports by city, county, issue type, and urgency, then generate responsible reports for local agencies, state officials, lawmakers, and media.
+
+Important legal/safety framing:
+Use careful wording:
+- “reported concern”
+- “alleged concern”
+- “submitted evidence”
+- “requires review”
+- “requires investigation”
+- “publicly submitted animal welfare concern”
+- “pattern of reported concerns”
+Do NOT declare abuse occurred. Do NOT identify anyone as guilty. Do NOT encourage harassment or confrontation.
+
+Design style:
+Use a premium MacOS Tahoe / Apple Liquid Glass inspired design:
+- glassmorphism interface
+- translucent frosted panels
+- glowing animated borders
+- luminous moving background orbs
+- dark navy / cyan / aqua / white glass aesthetic
+- subtle California gold accents
+- clean infographic / visual roadmap structure
+- bold title and subtitle
+- color-coded sections
+- rounded cards
+- professional public-interest feel
+- modern, clean, emotional but credible
+
+Tech:
+React + Vite + Tailwind CSS.
+Use localStorage for version 1.
+No paid APIs.
+No backend required, but create clean structure for future Supabase integration.
+
+Pages:
+1. Landing Page
+2. Submit Statewide Concern
+3. County/City Dashboard
+4. Report Packet Generator
+5. Lawmaker & Agency Escalation Center
+6. California Resource Library
+7. Responsible Reporting / Safety
+
+Landing Page:
+Hero:
+Title: “A Statewide Voice for California’s Animals”
+Subtitle: “Document animal welfare concerns, identify patterns, and create responsible pressure for action.”
+CTA buttons:
+- Submit a Concern
+- Generate Report Packet
+- View Dashboard
+
+Include cards:
+- Document Evidence
+- Map Patterns
+- Escalate Responsibly
+- Support Local Advocacy
+
+Submit Statewide Concern Form:
+Fields:
+- Animal type: cat, dog, livestock, wildlife, other
+- Number of animals
+- City
+- County
+- ZIP code optional
+- Cross streets / location description
+- Date observed
+- Time observed
+- Urgency level:
+  - immediate danger
+  - urgent but not immediate
+  - ongoing concern
+  - informational
+- Concern categories:
+  - stray animal population concern
+  - injured animal
+  - starving animal
+  - abandoned animal
+  - shelter overcrowding concern
+  - repeated reports ignored
+  - suspected neglect
+  - deceased animal
+  - lack of access to affordable care
+  - other
+- Description
+- Evidence notes
+- Photo upload placeholder
+- Agencies contacted
+- Response received?
+- Anonymous option
+- Contact info optional
+- Consent checkbox confirming truthful submission and responsible use.
+
+Dashboard:
+Create a California dashboard with:
+- Statewide total reported concerns
+- Counties with highest reported concerns
+- Concern categories
+- Urgency breakdown
+- Unresolved / follow-up needed
+- Demo California map placeholder
+- County cards
+- Recent concern feed
+- Filter by county/city/animal type/status
+
+Report Packet Generator:
+Generate:
+- Formal animal welfare concern summary
+- County/city summary
+- Pattern statement
+- Timeline
+- Evidence checklist
+- Agency contact history
+- Suggested local agency email
+- Suggested county supervisor email
+- Suggested state legislator email
+- Suggested media tip
+
+Escalation Center:
+Tabs:
+1. Local Animal Services
+2. County Supervisors
+3. State Assembly / Senate
+4. Governor’s Office
+5. Media Outreach
+
+Each tab generates a responsible message using the submitted concern.
+
+California Resource Library:
+Include sections:
+- How animal welfare reporting differs by city/county
+- What to document
+- How to safely gather evidence
+- How to request public records
+- How to escalate repeated non-response
+- How to organize neighborhood reports
+- Placeholder list for state-level contacts and agencies
+
+Responsible Reporting Page:
+Include clear warnings:
+- Do not trespass
+- Do not harass property owners
+- Do not post private addresses publicly without care
+- Do not make claims you cannot support
+- Contact emergency services for immediate danger
+- This tool helps organize concerns; it does not determine legal guilt.
+
+Components:
+- AnimatedGlassBackground
+- GlassCard
+- GlowButton
+- CountySelector
+- StatCard
+- StatusBadge
+- ReportBuilder
+- MessageGenerator
+- ResourceCard
+- DashboardTable
+
+Make the UI beautiful, modern, responsive, and emotionally compelling.
+The app should feel like a premium public accountability dashboard.
